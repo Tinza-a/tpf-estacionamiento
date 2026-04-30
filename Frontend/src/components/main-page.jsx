@@ -1,13 +1,15 @@
 import react from "react";
 import ParkingLogo from '../Imgs/Parking-Logo.png'
 
-import ParkingSlots from "./parking-slots";
+import Navbar from "../components/Navbar";
+import ParkingSlots from "../components/parking-slots";
 
 function MainPage() {
 
   return (
     <>
-   <h1>holanda</h1>
+         <Navbar/>
+   <h1>main page ejemplo</h1>
    <section>
     <nav>
         <header>
@@ -17,6 +19,9 @@ function MainPage() {
     </nav>
     <section>
         <h3>Estacionar Ahora</h3>
+
+
+<hr></hr>
             <section>
                 <ParkingSlots
                 ParkingName= "Nombre del parking 1"
@@ -36,7 +41,7 @@ function MainPage() {
         <h3>Reservar</h3>
             <section>
                 <ParkingSlots
-                ParkingName= "Nombre del parking 3"
+                ParkingName= "Nombre del parking 3  "
                 ParkinAddress= "Direccion del Parking 3"
                 />
             </section>

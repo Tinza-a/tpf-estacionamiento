@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-     <h1>ejemplo</h1>
+     <h1>App.jsx ejemplo</h1>
 
      <MainPage/>
     </>
