@@ -1,0 +1,64 @@
+.anchor-parkingslots{
+   display: flex;
+   flex-direction: column;
+   box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+   margin: 1em ;
+   
+   /* background-color: blue; */
+   border-radius: 3em;
+   height: 150px;
+}
+
+
+.anchor-parkingslots-items{
+    /* padding: 0.5em; */
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border: "2px solid red";
+    /* background-color: orange; */
+    border-radius: 3em;
+    
+}
+.anchor-parkingslots-itemsimg-container{
+    display: flex;
+    width: 11em;
+    height: 150px;
+    padding-right: 0.2em;
+    margin-right: 1em;
+    box-shadow: 10px 0px 10px rgba(107, 107, 107, 0.2);
+    border-radius: 2em;
+    padding-right: 5px;
+    /* background-color: red; */
+    
+    
+    
+}
+
+
+.anchor-parkingslots-items1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.anchor-parkingslots-items-img{
+    width: 100%;
+    border-radius: 2em;
+}
+    .anchor-parkingslots-items1-1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        padding-left: 0.5em;
+    }
+/* 
+.anchor-parkingslots-items2{
+display: flex;
+flex-direction: column;
+} */
+
